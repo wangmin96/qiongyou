@@ -1,0 +1,56 @@
+.message{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+}
+.message ul{
+	overflow: hidden;
+}
+.message ul li{
+	float: left;
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #ccc;
+}
+.message ul li p:nth-of-type(1){
+	float: left;
+	width: 14%;
+	height: 100px;
+	margin: 10px 14px;
+	position: relative;
+}
+.message ul li:nth-of-type(2n+1) p:nth-of-type(1){
+	background-color: #FFCC33;
+}
+.message ul li:nth-of-type(2n) p:nth-of-type(1){
+	background-color: #00CC99;
+}
+.message ul li p:nth-of-type(2){
+	float: right;
+	width: 78%;
+	height: 80px;
+	margin: 10px 14px;
+	position: relative;
+}
+.message ul li p:nth-of-type(2) span{
+	float: left;
+	width: 100%;
+	height: 50px;
+	font-size: 26px;
+	line-height: 50px;
+}
+.message ul li p:nth-of-type(2) span:nth-of-type(1){
+	font-size: 30px;
+}
+.message ul li p:nth-of-type(2) span a{
+	float: right;
+	width: 100px;
+	color: #949494;
+}
+.dian{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+	color: #717171;
+}

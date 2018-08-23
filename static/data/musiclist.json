@@ -1,0 +1,48 @@
+{
+  "albums": [{
+      "name": "飙升榜",
+      "id": 19723756,
+      "bg": "/static/image/01.jpg",
+      "content":"今天天气真好"
+    },
+    {
+      "name": "新歌榜",
+      "id": 3779629,
+      "bg": "static/image/02.jpg",
+      "content":"今天天气真好"
+    },
+    {
+      "name": "原创榜",
+      "id": 2884035,
+      "bg": "static/image/03.jpg",
+      "content":"今天天气真好"
+    },
+    {
+      "name": "KTV麦榜",
+      "id": 21845217,
+      "bg": "static/image/04.jpg",
+      "content":"今天天气真好"
+    },
+    {
+      "name": "华语金曲榜",
+      "id": 4395559,
+      "bg": "static/image/05.jpg",
+      "content":"今天天气真好"
+    },
+    {
+      "name": "我的专辑",
+      "id": 98833242,
+      "bg": "static/image/06.jpg"
+    },{
+      "name": "我的专辑",
+      "id": 98833243,
+      "bg": "static/image/07.jpg",
+      "content":"今天天气真好"
+    },{
+      "name": "我的专辑",
+      "id": 98833244,
+      "bg": "static/image/08.jpg",
+      "content":"今天天气真好"
+    }
+  ]
+}

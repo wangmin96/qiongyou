@@ -1,0 +1,153 @@
+.report{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.report_title{
+	width: 100%;
+	height: auto;
+	font-size: 30px;
+	line-height: 80px;
+	padding: 0 24px;
+	color: #505050;
+	border-bottom: 1px solid #E2E2E2;
+}
+.report_img{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #E2E2E2;
+}
+.addImg{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 30px 25px;
+	border: 1px dashed #444444;
+}
+#Imgs{
+	display: none;
+}
+.dingwei,.touchbtn{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	font-size: 28px;
+	border-bottom: 1px solid #E2E2E2;
+	line-height: 100px;
+	color: #A1A1A1;
+}
+.nows{
+	float: left;
+	padding-left: 24px;
+	font-size: 30px;
+	color: #505050;
+}
+.wzs{
+	float: left;
+	width: 71%;
+	height: 100px;
+	padding-left: 10px;
+	overflow: hidden;
+	color: #868686;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ent{
+	float: right;
+	padding-right: 24px;
+	width: 5%;
+	height: 60px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.gps{
+	float: left;
+	font-size: 24px;
+	line-height: 100px;
+	padding-left: 24px;
+	font-size: 30px;
+	color: #505050;
+}
+.touchBtn{
+	float: right;
+	width:100px; 
+	height:50px; 
+	margin: 25px 24px;
+	border-radius:50px; 
+	background-color:#0C3; 
+	position:relative
+}
+.touchBtn span{
+	position:absolute; 
+	left:0; 
+	transition:left 0.2s ease-in-out;
+	-webkit-transition:left 0.2s ease-in-out; 
+	top:0; 
+	width:50px; 
+	height:50px; 
+	background-color:#fff; 
+	border-radius:50%;
+	border: 1px solid #CECECE;
+	box-sizing:border-box;
+}
+.btn_animation{ 
+	left:50px !important; 
+	transition:left 0.2s ease-in-out; 
+	-webkit-transition:left 0.2s ease-in-out;
+}
+
+.wantsay{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.wantsay p{
+	float: left;
+	font-size: 30px;
+	line-height: 80px;
+	padding: 0 24px;
+	color: #505050;
+}
+.wantsay textarea{
+	width: 70%;
+	height: 250px;
+	overflow: hidden;
+	font-size: 26px;
+	margin: 0 15% 20px 15%;
+	padding: 10px;
+	border: 1px solid #E2E2E2;
+	box-sizing: border-box;
+	outline: none;
+	font-size: 28px;
+}
+.btnsw{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 10px auto;
+}
+.btnsw a{
+	float: left;
+	width:40%;
+	height: 70px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-size: 26px;
+	line-height: 70px;
+	text-align: center;
+	margin: 0 5%;
+	color: #fff;
+}
+.reportNow{
+	background-color: #DE4545;
+}
+.backNow{
+	background-color: #A0A0A0;
+}
+
+.layui-m-layer-msg .layui-m-layercont{
+	padding: 30px 35px !important;
+}

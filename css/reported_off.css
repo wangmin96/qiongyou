@@ -1,0 +1,349 @@
+body{
+	position: relative;
+}
+.report_con{
+	width: 94%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 3%;
+}
+.report_con ul{
+	overflow: hidden;	
+}
+.report_con ul li{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.headsv{
+	overflow: hidden;
+}
+.headImg{
+	float: left;
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    margin: 26px auto;
+}
+.headCons{
+	float: left;
+	max-width: 540px;
+	overflow: hidden;
+	margin-top: 23px;
+}
+.headCons p{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	color: #696969;
+}
+.headCons p span:nth-of-type(1){
+	margin-left: 10px;
+	font-weight: 600;
+	font-size: 32px;
+}
+.headCons p span{
+	float: left;
+	line-height: 50px;
+	font-size: 30px;
+	padding: 10px;
+}
+.headCons p:nth-of-type(2){
+	font-size: 26px;
+	padding-left: 20px;
+	line-height: 50px;
+}
+.location{
+	max-width: 365px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.headText{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 26px;
+	color: #9A9A9A;
+}
+.headText a{
+	color: #A1A1A1;
+}
+.headPic{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+.headPic a{
+	float: left;
+	width: 32%;
+	height: 200px;
+	margin-left: 1%;
+	position: relative;
+    text-decoration: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+.headPic ul li:nth-of-type(1){
+	margin-left: 0;
+}
+.shade{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	display: none;
+	overflow: hidden;
+}
+.shade img{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btns{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+.btns button{
+	float: right;
+	width: 120px;
+	height: 50px;
+	margin-right: 20px;
+	outline: none;
+	border: none;
+	font-size: 26px;
+	color: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.zan{
+	background-color: #00CC99;
+}
+.shang{
+	background-color: #E28F19;
+}
+.say{
+	background-color: #FF4D4D;
+}
+
+.tabBox{
+	overflow: hidden;
+}
+.tabBox .hd{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #C2C2C2;
+}
+.tabBox .hd ul li{
+	float: left;
+	padding: 10px 20px;
+	font-size: 26px;
+	line-height: 50px;
+}
+.tabBox .hd ul .on{
+	color: #00CC99;
+	border-bottom: 2px solid #00CC99;
+	margin-bottom: -1px;
+}
+.zans{
+	background-color: #B5B5B5;
+}
+.layui-m-layer-msg .layui-m-layercont{
+	padding: 30px 35px !important;
+}
+.tabBox .bd{
+	overflow: hidden;
+}
+.tabBox .bd ul li{
+	float: left;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.tabBox .bd ul li a{
+	float: left;
+	overflow: hidden;
+}
+.whos li a{
+	width: 25%;
+}
+.tabBox .bd ul li a span{
+	float: left;
+}
+.tabBox .bd ul li a .headImgs{
+	width: 50px;
+	height: 50px;
+	padding: 25px 15px;
+}
+.tabBox .bd ul li a .headNams{
+	width: 100px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+	font-size: 25px;
+	line-height: 100px;
+}
+.tabBox .bd ul li a .weizhi{
+	font-size: 25px;
+	line-height: 100px;
+}
+.dianzan li a .weizhi{
+	max-width: 525px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.dashangs li a .weizhi{
+	max-width: 400px;
+}
+.dashangs li a .moneys{
+	font-size: 25px;
+	line-height: 100px;
+	max-width: 125px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+	padding-left: 50px;
+}
+
+.btn_details{
+	overflow: hidden;
+}
+.common{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.fs_bt{
+	width: 100px;
+	height: 40px;
+	overflow: hidden;
+	float: left;
+	line-height: 40px;
+	border-radius: 5px;
+	font-size: 28px;
+	text-align: right;
+	color: #505050;
+	margin: 5px 10px 5px auto;
+}
+.bt_all{
+	float: left;
+	width: 400px;
+	height: 50px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	white-space:nowrap;
+	line-height: 50px;
+	color: #40AFFE;
+}
+.peops{
+	width: 150px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+	line-height: 50px;
+	color: #A1A1A1;
+}
+
+.comment{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	background-color: #fff;
+}
+.comment article{
+	float: left;
+	width: 100%;
+	height: 80px;
+	overflow: hidden;
+	line-height: 80px;
+	font-size: 26px;
+	padding:0 10px;
+	color: #797979;
+}
+.comment .page_emotion{
+	z-index: 99;
+	background-color: #fff;
+}
+#btns{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	right: 30px;
+	top: 20px;
+}
+.inputs{
+	float: left;
+	position: relative;
+	width: 70%;
+	overflow: hidden;
+	outline: none;
+	border: 1px solid #ccc;
+	margin: 5px 3%;
+	border-radius: 5px;
+}
+.talk{
+	float: right;
+	width: 20%;
+	height: 80px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #FFFFCC;
+	font-size: 26px;
+	line-height: 80px;
+	text-align: center;
+	color: #797979;
+	margin: 5px 3% 5px auto;
+}
+#page_emotion{
+    height: 0px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+#leftTabBox{
+	margin-bottom: 85px;
+}
+.bt_say{
+	width: 526px;
+	height: auto;
+	white-space:inherit;
+	text-align: justify;
+}
+.bt_say span{
+	color: #A1A1A1;
+}
+.bt_say span a{
+	color: #3A3A3A;
+}
+.seeMore,.seeMore span{
+	color: #40AFFE;
+	line-height: 50px;
+}
+
+.comments .commentsNams{
+	width: 590px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 25px;
+    line-height: 100px;
+}

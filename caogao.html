@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0;"/>
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="touchTouch/touchTouch.css" />
+		<link rel="stylesheet" href="css/reported_off.css" />
+        <script type="text/javascript" src="js/layer.mobile-v2.0/layer_mobile/layer.js" ></script>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="js/touchslide/TouchSlide.1.1.js" ></script>
+		<script type="text/javascript" src="js/layer.mobile-v2.0/layer_mobile/layer.js" ></script>
+		<script type="text/javascript" src="js/phone.js" ></script>
+
+
+
+	</head>
+	<body>
+		<div class="whole">
+			
+			<div class="head">
+				<a class="back" href="javascript:history.go(-1)"><img src="img/back.png" /></a>
+				<p>草稿箱</p>
+				<a class="report" href="youji.html"><img src="img/report_1.png" /></a>
+			</div>
+			
+			<div class="report_con">
+				<div class="headsv">
+					<div class="headImg">
+						<img src="{{img}}" width="100%"  />
+					</div>
+					<div class="headCons">
+						<p>
+							<span class="name">{{name}}</span>
+
+						</p>
+						<p>时间:{{time}}</p>
+					</div>
+				</div>
+				<div class="headText" id="thediv">
+					{{body}}
+				</div>
+				<div class="headPic" id="thumbs">
+					<img src="img/header.jpg">
+					<img src="img/header.jpg">
+					<img src="img/header.jpg">
+				</div>
+
+				<div class="btns">
+					<button type="button" class="zan">发布</button>
+					<button type="button" class="say">删除</button>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
